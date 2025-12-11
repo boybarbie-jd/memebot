@@ -28,8 +28,8 @@ import numpy as np
 # ===========================
 # PUT YOUR API KEYS HERE
 # ===========================
-OPENAI_API = "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"
-GIPHY_API_KEY = "zOLnaVGbsCskkjcOLKSVmDhd2G2LoDQu"
+OPENAI_API = "your api keys"
+GIPHY_API_KEY = "api keys"
 
 
 # ===========================
@@ -465,3 +465,4 @@ if __name__ == "__main__":
         except Exception as e:
             logging.error(f"Error: {e}")
             time.sleep(60)
+
